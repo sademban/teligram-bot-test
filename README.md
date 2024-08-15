@@ -20,3 +20,24 @@ This repository contains a Python script for a Telegram bot that sends scheduled
    ```bash
    git clone https://github.com/sademban/teligram-bot-test.git
    cd telegram-bot-test
+
+## Setting Up and Running the Bot
+
+1. **Create venv, activate venv, Install requriremnts.txt**
+   ```bash
+   #after you cd to elegram-bot-test
+
+   python -m venv venv
+
+   source venv/bin/activate
+
+   pip install -r requirements.txt
+
+   ```
+2. **Create .env file, set teligram token and run the bot**
+   ```bash
+   touch .env
+   #set your TELEGRAM_TOKEN=xxxxxxxxxxxxxxx in .env file and save it
+
+   python teli.py
+   ```
